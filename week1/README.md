@@ -12,10 +12,10 @@
 
 ## 作业成果：
 ### 作业1：成功安装启动openclaw
-![alt text](../img/week1_img/openclaw-running.png)
+![alt text](../img/week1/openclaw-running.png)
 
 ### 作业2：成功安装python
-![alt text](../img/week1_img/python-version.png)
+![alt text](../img/week1/python-version.png)
 
 ### 作业3：成功安装ubuntu，成功安装ros2，成功启动ros2
-![alt text](../img/week1_img/ros-turtlesim.png)
+![alt text](../img/week1/ros-turtlesim.png)

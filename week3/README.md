@@ -15,5 +15,5 @@
 
 
 ## 作业成果：
-### 作业1：成功安装启动openclaw
+### 作业1：ros2画圈
 ![alt text](../img/week3/ros2.png)
