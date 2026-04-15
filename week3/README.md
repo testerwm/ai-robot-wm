@@ -16,4 +16,4 @@
 
 ## 作业成果：
 ### 作业1：ros2画圈
-![alt text](../img/week3/ros2.png)
+![alt text](../img/week3/draw_circles.png)

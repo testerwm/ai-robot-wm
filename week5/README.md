@@ -11,6 +11,5 @@
 ## 作业成果：
 ### 作业1：操作机械臂进行画圆、进行画直线
 
-![alt text](../img/week5/image.png)
-
+![alt text](../img/week5/Draw_circles.png)
 <video controls src="../img/week5/move.mp4" title="Title"></video>
