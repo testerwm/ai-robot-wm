@@ -53,7 +53,7 @@ joint_poses = p.calculateInverseKinematics(
 
 ![机械臂画圆和画直线](../img/week5/Draw_circles.png)
 
-[机械臂运动录屏](../img/week5/move.mp4)
+<video src="../img/week5/move.mp4" controls width="700"></video>
 
 ## 6. 核心理解
 
