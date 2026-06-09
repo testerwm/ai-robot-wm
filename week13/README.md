@@ -72,7 +72,8 @@
 - 已整理 GitHub Pages 展示入口。
 - 后续需要补 Week10-12 的真实代码、截图和运行结果。
 - Week13 将作为期末项目计划和实施记录页持续更新。
-<video src="img/week13/walk.mp4" controls width="100%"></video>
+- <video src="../img/week13/walk.mp4" controls width="700"></video>
+
 ## 5. 后续补充内容
 
 为了提高评分和项目展示质量，Week13 后续应补充：
