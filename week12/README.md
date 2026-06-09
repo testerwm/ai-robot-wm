@@ -47,7 +47,7 @@ corners, ids, rejected = detector.detectMarkers(frame)
 4. 检测 ArUco 角点和 ID。
 5. 根据标记尺寸和相机参数估算距离。
 6. 在画面上绘制检测框、ID 和距离信息。
-
+![scan.jpg](../img/week12/scan.jpg)
 ## 4. 核心理解
 
 - 图像检测得到的是像素坐标，不是直接的真实世界距离。

@@ -48,7 +48,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plt.imshow(gray, cmap="gray")
 plt.show()
 ```
-
+![open_cv.png](../img/week10/open_cv.png)
 ## 4. 核心理解
 
 - OpenCV 默认使用 BGR，而 Matplotlib 默认按 RGB 显示，所以直接显示会出现颜色异常。

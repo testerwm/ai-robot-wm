@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="664bf41e-13dd-4a22-aa7f-d6a0758ae69e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/img/week13/walk.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week14/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week15/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/claudeCodeTabState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/week10/open_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/week12/scan.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week13/README1.md" beforeDir="false" afterPath="$PROJECT_DIR$/week13/README1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week12/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week12/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week13/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week13/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week13/README1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week9/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +56,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.camera_bridge.executor": "Run",
+    "Python.quadruped_ppo_residual_stairs.executor": "Run",
     "Python.robot.executor": "Run",
     "Python.slow_walker.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kronk.content.tree.expanded.paths": "",
@@ -81,11 +87,58 @@
       <recent name="C:\Users\China\Documents\git_project\ai-robot-wm\week12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\China\Documents\git_project\ai-robot-wm\img\week12" />
       <recent name="C:\Users\China\Documents\git_project\ai-robot-wm\img\week8" />
       <recent name="C:\Users\China\Documents\git_project\ai-robot-wm\week1\截图" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.slow_walker">
+  <component name="RunManager" selected="Python.camera_bridge">
+    <configuration name="camera_bridge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai-robot-wm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week13/camera_bridge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quadruped_ppo_residual_stairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ai-robot-wm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week13/quadruped_ppo_residual_stairs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai-robot-wm" />
       <option name="ENV_FILES" value="" />
@@ -134,6 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.camera_bridge" />
+        <item itemvalue="Python.quadruped_ppo_residual_stairs" />
         <item itemvalue="Python.slow_walker" />
         <item itemvalue="Python.robot" />
       </list>
