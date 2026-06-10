@@ -6,12 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="664bf41e-13dd-4a22-aa7f-d6a0758ae69e" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week13/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week13/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/week4/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +65,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kronk.content.tree.expanded.paths": "",
@@ -85,7 +93,7 @@
       <recent name="C:\Users\China\Documents\git_project\ai-robot-wm\week1\截图" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.camera_bridge">
+  <component name="RunManager">
     <configuration name="camera_bridge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ai-robot-wm" />
       <option name="ENV_FILES" value="" />
@@ -178,14 +186,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.camera_bridge" />
-        <item itemvalue="Python.quadruped_ppo_residual_stairs" />
-        <item itemvalue="Python.slow_walker" />
-        <item itemvalue="Python.robot" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

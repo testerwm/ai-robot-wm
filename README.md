@@ -11,10 +11,10 @@
 
 ## 课程作业目录
 
-- [Week 1：OpenCLAW、Python、Ubuntu 与 ROS2 环境准备](week1/README.md)
-- [Week 2：VS Code、WSL 与 ROS2 TurtleSim 直线运动](week2/README.md)
-- [Week 3：编程基础、机器人基础与 TurtleSim 圆形运动](week3/README.md)
-- [Week 4：坐标系、ROS2 节点与 TurtleSim 正方形控制](week4/README.md)
+[//]: # (- [Week 1：OpenCLAW、Python、Ubuntu 与 ROS2 环境准备]&#40;week1/README.md&#41;)
+- [Week 2：WSL、Ubuntu 与 ROS2 环境配置](week2/README.md)
+- [Week 3：GitHub SSH、VS Code 与 ROS2 命令行交互](week3/README.md)
+- [Week 4：命令行、机器人基础概念与 Python 仿真](week4/README.md)
 - [Week 5：Linux 目录操作、PyBullet 与机械臂运动学](week5/README.md)
 - [Week 6：传感器介绍与 ROS2 KITTI 实验](week6/README.md)
 - [Week 7：Markdown 与 GitHub 作业整理](week7/README.md)
@@ -23,9 +23,9 @@
 - [Week 10：Docker 概念与 OpenCV 实验](week10/README.md)
 - [Week 11：Docker 进阶与 GitHub Pages 网页部署](week11/README.md)
 - [Week 12：手机摄像头、ArUco 识别与距离测量](week12/README.md)
-- [Week 13：四足机器人入门与期末项目实施](week13/README.md)
-- [Week 14：网课-暂未上](week14/README.md)
-- [Week 15：本周上](week15/README.md)
+- [Week 13：四足机器人入门 + 期末项目实施](week13/README.md)
+- [Week 14：手机遥控 + 局域网通信 + 仿真机器人迷宫探索（小组项目）](week14/README.md)
+- [Week 15：考试周](week15/README.md)
 
 ## 关于我
 

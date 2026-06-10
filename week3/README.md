@@ -1,4 +1,4 @@
-# Week 3 作业记录：编程基础、机器人基础与 TurtleSim 圆形运动
+# Week 3 作业记录：GitHub SSH、VS Code 与 ROS2 命令行交互
 
 ## 1. 学习目标
 

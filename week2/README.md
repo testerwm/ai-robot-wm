@@ -1,4 +1,4 @@
-# Week 2 作业记录：VS Code、WSL 与 ROS2 TurtleSim 直线运动
+# Week 2 作业记录：WSL、Ubuntu 与 ROS2 环境配置
 
 ## 1. 学习目标
 
