@@ -11,6 +11,7 @@
 - 编程基础：变量、条件判断、循环、函数。
 - 机器人基础：机器人位置、姿态、速度、坐标系。
 - ROS2 控制：发布速度消息控制机器人运动。
+- 实验脚本：[`turtle_circle_publisher.py`](turtle_circle_publisher.py)
 
 ## 3. 实验过程
 
@@ -36,6 +37,13 @@ msg.angular.z = 1.0
 publisher.publish(msg)
 ```
 
+运行本周脚本：
+
+```bash
+cd week3
+python3 turtle_circle_publisher.py
+```
+
 ### 3.3 实验结果
 
 小乌龟在仿真窗口中留下圆形轨迹，说明速度控制命令成功发布。
@@ -47,6 +55,7 @@ publisher.publish(msg)
 - 机器人运动可以拆成线速度和角速度两个部分。
 - ROS2 中常用 `Twist` 消息表达速度控制命令。
 - 圆形轨迹不是直接“画圆”，而是通过连续发布速度指令让机器人自然运动出来。
+- `linear.x / angular.z` 的比例决定圆的半径，这也是机器人运动学中速度分解的直观例子。
 
 ## 5. 问题与解决
 

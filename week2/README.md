@@ -12,6 +12,7 @@
 - VS Code Remote WSL
 - ROS2 TurtleSim
 - Git 与 GitHub
+- 实验脚本：[`turtle_line_publisher.py`](turtle_line_publisher.py)
 
 ## 3. 操作过程
 
@@ -36,7 +37,14 @@ ssh -T git@github.com
 ros2 run turtlesim turtlesim_node
 ```
 
-再通过键盘控制或速度命令让小乌龟向前运动。核心控制消息是 `geometry_msgs/Twist`，其中：
+再运行本周脚本，让小乌龟向前直线运动：
+
+```bash
+cd week2
+python3 turtle_line_publisher.py
+```
+
+核心控制消息是 `geometry_msgs/Twist`，其中：
 
 - `linear.x` 控制前进速度
 - `angular.z` 控制旋转速度
@@ -50,6 +58,7 @@ ros2 run turtlesim turtlesim_node
 - ROS2 的节点之间通过 Topic 通信，控制小乌龟时本质上是在向 `/turtle1/cmd_vel` 发布速度消息。
 - VS Code + WSL 的组合适合机器人课程实验：代码管理清楚，命令运行环境也接近真实 Linux。
 - GitHub SSH 配置成功后，课程作业可以稳定同步到远程仓库。
+- Week2 的重点是打通“环境安装 -> 命令行 -> ROS2 节点 -> 话题控制”这条最小链路。
 
 ## 5. 问题与解决
 

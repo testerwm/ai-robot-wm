@@ -12,6 +12,7 @@
 - OpenCV：`opencv-python`
 - Matplotlib：用于显示图片
 - 运行环境：WSL Ubuntu 或 Docker ROS2 容器
+- 实验脚本：[`opencv_color_demo.py`](opencv_color_demo.py)
 
 ## 3. 操作过程
 
@@ -48,18 +49,46 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plt.imshow(gray, cmap="gray")
 plt.show()
 ```
+
+### 3.4 可复现实验脚本
+
+本周新增 `opencv_color_demo.py`，将读取图片、BGR/RGB/GRAY 转换和结果保存写成完整程序。
+
+运行命令：
+
+```bash
+cd week10
+python3 opencv_color_demo.py
+```
+
+预期输出：
+
+```text
+Saved result to week10/opencv_color_result.png
+```
+
+该脚本可以清楚证明：
+
+- 已安装并能导入 `cv2`。
+- 能从仓库读取图片。
+- 理解 OpenCV 默认 BGR 与 Matplotlib RGB 的区别。
+- 能生成实验结果图片，便于后续补充到报告中。
+
 ![open_cv.png](../img/week10/open_cv.png)
+
 ## 4. 核心理解
 
 - OpenCV 默认使用 BGR，而 Matplotlib 默认按 RGB 显示，所以直接显示会出现颜色异常。
 - 灰度化会把三通道彩色图转换成单通道亮度图，适合边缘检测、阈值分割等任务。
 - Docker 环境可以固定依赖版本，让视觉实验更容易复现。
+- 图像处理实验的关键不是只显示图片，而是解释“读取、通道转换、保存、验证”这条完整流程。
 
 ## 5. 问题与解决
 
 - `cv2.imread()` 返回 `None`：检查图片路径和文件名。
 - 显示颜色不正确：使用 `cv2.cvtColor(img, cv2.COLOR_BGR2RGB)`。
 - 依赖冲突：记录安装命令和版本，必要时使用虚拟环境或容器隔离。
+- 在 Docker/WSL 中无法弹出图形窗口：使用 Matplotlib 保存结果图片，或在 noVNC 桌面环境中运行。
 
 ## 6. 本周总结
 

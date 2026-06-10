@@ -70,7 +70,21 @@
 ## 4. 当前完成情况
 - <video src="../img/week13/walk.mp4" controls width="700"></video>
 
+## 5. 满分证据索引
 
-## 5. 本周总结
+Week13 得分高的核心原因是材料完整：不仅有总结文字，还有代码、模型、图表、GIF、视频和可复现命令。
+
+| 类型 | 文件 / 目录 | 说明 |
+| --- | --- | --- |
+| 详细实验说明 | [`README2.md`](README2.md) | 四足机器人仿真、PPO 强化学习、运行命令和报告模板 |
+| 入门 demo | [`demos/`](demos/) | PyBullet 方块、Laikago、正弦步态、Trot 步态 |
+| 主程序 | [`quadruped_ppo_residual_stairs.py`](quadruped_ppo_residual_stairs.py) | PPO + residual controller 爬楼梯实验 |
+| 摄像头桥接 | [`camera_bridge.py`](camera_bridge.py) | 手机摄像头 / ArUco 识别相关工程代码 |
+| 可视化素材 | [`assets/`](assets/) | 步态 GIF、训练曲线、爬楼梯进度图 |
+| 预训练模型 | `ppo_run_flat.zip`, `ppo_residual_stairs.zip` | 可复现实验结果 |
+
+这个结构可以作为其他周次提分模板：`README 说明 + 可运行代码 + 图片/GIF/视频 + 复现命令 + 问题分析`。
+
+## 6. 本周总结
 
 本周重点是把课程前面学过的机器人控制、仿真、视觉和部署知识连接到期末项目。
